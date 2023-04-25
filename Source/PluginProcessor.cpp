@@ -459,9 +459,7 @@ void CochlearSimulationAudioProcessor::processBlock (juce::AudioBuffer<float>& b
                 }
                 // mono..
                 outputR[n] = outputL[n];
-                
-                
-                
+
                 // update pointers..
                 
                 gOutputWinWritePointer = gOutputWinWritePointer + 1;
